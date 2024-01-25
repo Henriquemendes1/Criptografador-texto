@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script src="scripts/script.js" defer></script>
+        <title>Criptografando textos </title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="conteudo">
+                <aside class="conteudo__icon">
+                    <img src="assets/HM systems.png" alt="Logo Alura">
+                </aside>
+                <main class="conteudo__principal">
+                    <textarea class="primeiro-texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                    <div class="btns">
+                        <span>
+                            <iconify-icon icon="bi:exclamation-circle-fill"></iconify-icon>Apenas letras minúsculas e sem acento.
+                        </span>
+                        <div class="layout-btns">
+                            <button class="padrao-btn btn-cript">Criptografar</button>
+                            <button class="padrao-btn btn-descript">Descriptografar</button>
+                        </div>
+                    </div>
+                </main>
+                <aside class="conteudo__resultado">
+                    <div class="container-resultado" style="display: flex;">
+                        <img src="assets/Lupa4.png" id="img-resultado" alt="Logo-resultado">
+                        <div class="msg-resultado">
+                            <span>Nenhuma mensagem encontrada</span>
+                            <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+                        </div>
+                    </div>
+                    <div class="container-result-cript" style="display: none;">
+                        <textarea id="" cols="30" rows="10" class="txt-result"></textarea>
+                        <button class="padrao-btn btn-copiar">Copiar</button>
+                    </div>
+                </aside>
+            </div>
+            <footer class="rodape">
+                Desenvolvido por Henrique Mendes
+            </footer>
+        </div>
+        
+    </body>
+</html>
