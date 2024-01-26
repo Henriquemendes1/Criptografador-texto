@@ -69,10 +69,12 @@
     gap: 8px;
 }
 
+
 .conteudo .btns {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    color: #00FD7C;
 }
 
 .layout-btns {
@@ -138,6 +140,7 @@
 .msg-resultado span:nth-child(2) {
     font-family: var(--fonte-padrao);
     font-size: 1rem;
+    
 }
 
 .container-result-cript {
@@ -263,6 +266,7 @@
     #img-resultado {
         display: none;
     }
+  
 
 }
 
